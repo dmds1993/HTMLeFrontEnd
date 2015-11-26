@@ -1,0 +1,32 @@
+main h1{
+    font-size: 60px;
+    background-color: #851944;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+main h2{
+    font-size: 40px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+body{
+    background-color: #F2FFFC;
+}
+p{
+    text-align: justify;
+}
+p{
+    font-family: 'Crimson Text', sans-serif;
+}
+blockquote p {
+    background-color: #D9E5E3;
+}
+nav {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+div footer {
+    background-color: black;
+    color: #F2FFFC;
+}

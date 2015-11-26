@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+
+<script>
+var numero = [];
+
+mostra = function (frase){
+    document.write(frase);
+}
+pulaLinha = function() {
+    document.write ("<br>");
+}
+for (var i = 1; i <= 60; i++){
+    numero.push(i);
+}
+var sorteado = [];
+for (var sorteio = 1;  sorteio <= 6; sorteio++){
+    numero = Math.floor(Math.random()*60);
+    if (numero == 0){
+        numero + 1;
+    }
+    sorteado.push(numero);
+}
+var numeroDoUsuario = [];
+
+for (var numeroTexto = 1; numeroTexto <= 6; numeroTexto ++){
+    var inserir = parseInt(prompt("Digite o" + numeroTexto + "º de 6"));
+    numeroDoUsuario.push(inserir);
+}
+    if (numeroDoUsuario == sorteado){
+        mostra("Parabens você acertou os seis numeros sorteados")
+        mostra ("Numero jogado" + numeroDoUsuario);
+        pulaLinha();
+        mostra ("Número sorteado" + sorteado);
+    }else{
+        mostra ("Você errou " + numeroDoUsuario);
+        pulaLinha();
+        mostra ("Numero do serteio" + sorteado);
+    }
+
+
+</script>

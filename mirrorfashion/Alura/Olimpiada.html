@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<script>
+mostra = function (frase){
+    document.write (frase);
+};
+
+var mostra = function(frase) {
+    document.write(frase + "<br/>");
+};
+var olimpiadaInicial = 1896;
+var anoLimite = parseInt(prompt("Qual é o ano limite?"));
+while(olimpiadaInicial <= anoLimite) {
+    mostra(olimpiadaInicial + " olimipiada!");
+    olimpiadaInicial = olimpiadaInicial + 4;
+}
+mostra("olimipiada ate " + anoLimite);
+</script>

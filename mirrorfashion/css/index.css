@@ -1,0 +1,14 @@
+.container{
+ margin-right:auto;
+ margin-left:auto;
+}
+.controltime{
+  float: right;
+}
+.destaque{
+  position: relative;
+}
+.pause,
+.play{
+  border-left: 10px solid #900;
+}

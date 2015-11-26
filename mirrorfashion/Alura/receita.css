@@ -1,0 +1,75 @@
+body{
+    background-color: #F5F0DC;
+    font-family: Helvertica,Arial,sans-serif;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2{
+    background-color: #B3A742;
+    background: -webkit-linear-gradient(top,#9C8F67,#C7BE9B 30%);
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    color: #FFFFFF;
+}
+#tb-nutricao{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+#tb-nutricao th{
+    background-color: #FFFFFF;
+}
+nav{
+    width: 200px;
+    float: left;
+}
+nav ul li{
+    background-color: #C7BE9B;
+    margin-bottom: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    list-style: none;
+    padding-left: 0px;
+}
+nav ul li:hover{
+    background-color: #9C8F67
+}
+#banner{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+#conteudo{
+    width: 740px;
+    float: right;
+}
+#topo{
+    text-align: center;
+}
+#tb-nutricao tr:nth-child(odd){
+    background-color: #F8EAB3;
+}
+#tb-nutricao tr:nth-child(even){
+    background-color: #FFFFFF;
+}
+figure{
+  background-color: white;
+  width: 450px;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Comic Sans MS',cursive;
+  border: 1px solid black;
+  box-shadow: 5px 5px 3px rgba(0,0,0,0.7);
+}
+figure:hover{
+
+  -webkit-transform:rotate(-5deg);
+}
